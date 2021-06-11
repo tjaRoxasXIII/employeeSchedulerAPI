@@ -1,24 +1,17 @@
 # README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+Using version 2.6.1
 
-* System dependencies
+* Getting Started:
 
-* Configuration
+First you'll want to make sure to create a '.env' file at the root of this directory for your Postgresql database.  Create Environmental variables for your credentials and add this file to your .gitignore file.  The example names for the existing variables can be found under 'config > database.yml'
 
-* Database creation
+Run a 'bundle install' to add in the dependencies from the Gemfile.
 
-* Database initialization
+Then begin setting up the database with 'rails db:create' and run your migrations with 'rails db:migrate'.  You can also use the provided seed data to fill your database with a few users and Workdays using 'rails db:seed'  Passwords for these users are not secure and can be found under 'db > seeds.rb' 
 
-* How to run the test suite
+To begin hosting, run 'rails s' and your API will be addressed locally at localhost:3000
+The data should then be ready to be reached by your frontend platform.
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
