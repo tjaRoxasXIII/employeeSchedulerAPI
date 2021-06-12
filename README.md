@@ -4,7 +4,7 @@ Using version 2.6.1
 
 * Getting Started:
 
-First you'll want to make sure to create a '.env' file at the root of this directory for your Postgresql database.  Create Environmental variables for your credentials and add this file to your .gitignore file.  The example names for the existing variables can be found under 'config > database.yml'
+First you'll want to make sure to create a '.env' file at the root of this directory for your Postgresql database (you may want to confirm you've created a Postgres user and have the database server started).  Create Environmental variables for your credentials and add this file to your .gitignore file.  The example names for the existing variables can be found under 'config > database.yml'
 
 Run a 'bundle install' to add in the dependencies from the Gemfile.
 
