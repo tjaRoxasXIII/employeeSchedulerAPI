@@ -1,6 +1,6 @@
 # README
 * Ruby version
-Using version 2.6.1
+Using version 3.0.1
 
 * Getting Started:
 
